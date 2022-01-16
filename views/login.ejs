@@ -1,0 +1,15 @@
+<% layout('layout/boilerplate')%>
+<div class="row">
+    <div class="card col-4 offset-4">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Log In</h4>
+            <form action="/login" method="POST" novalidate class="validated-form">
+                <label class="form-label" for="username">Enter Username:</label>
+                <input required type="text" class="form-control" name="username" id="username">
+                <label class="form-label" for="password">Enter Password:</label>
+                <input required type="password" class="form-control mb-4" name="password" id="password">
+                <button class="btn btn-secondary">Log In</button>
+            </form>
+        </div>
+    </div>
+</div>
